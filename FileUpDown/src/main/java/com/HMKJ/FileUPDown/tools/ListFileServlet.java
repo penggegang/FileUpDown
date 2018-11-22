@@ -43,7 +43,7 @@ public class ListFileServlet extends HttpServlet {
     * @param file 即代表一个文件，也代表一个文件目录
     * @param map 存储文件名的Map集合
     */ 
-    public void listfile(File file,Map<String,String> map){
+    public void lifile(File file,Map<String,String> map){
         //如果file代表的不是一个文件，而是一个目录
         if(!file.isFile()){
             //列出该目录下的所有文件和目录
