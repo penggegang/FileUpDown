@@ -7,7 +7,7 @@
   
   <body>
     <form action="${pageContext.request.contextPath}/servlet/UploadHandleServlet" enctype="multipart/form-data" method="post">
-        请上传用户姓名：<input type="text" name="username"><br/>
+        请上传用户姓名1：<input type="text" name="username"><br/>
         上传文件1：<input type="file" name="file1"><br/>
         上传文件2：<input type="file" name="file2"><br/>
         <input type="submit" value="提交">
